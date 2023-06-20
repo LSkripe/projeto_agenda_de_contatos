@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #cad1659d;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 90px;
+    margin-right: 16px;
+}
+
+header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+form #nome-contato, #regiao-contato, #numero-contato {
+    margin-right: 3px;
+}
+
+form #regiao-contato {
+    max-width: 90px;
+}
+
+form #numero-contato {
+    width: 250px;
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+table {
+    width: 75%;
+}
+
+table th {
+    border-bottom: 3px solid #000000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
